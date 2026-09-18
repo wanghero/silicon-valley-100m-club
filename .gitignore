@@ -1,0 +1,4 @@
+# 原始打包文件与 Logo 源文件，不发布
+*.zip
+100m-club-logo-*
+.DS_Store
