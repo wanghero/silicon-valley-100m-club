@@ -4,3 +4,8 @@
 .brand-mark{display:block;width:49px;height:49px;flex-shrink:0}@media(max-width:700px){.brand-mark{width:42px;height:42px}}
 
 .brand-mark{width:64px;height:64px;object-fit:contain;background:#fff}@media(max-width:700px){.brand-mark{width:54px;height:54px}}
+
+.i18n-pending body{visibility:hidden}.header-right{display:flex;align-items:center;gap:32px}.lang-switch{display:flex;border:1px solid var(--line);font-size:12px;flex-shrink:0}.lang-switch button{appearance:none;border:0;background:transparent;color:var(--muted);font:inherit;letter-spacing:1px;padding:6px 11px;cursor:pointer;line-height:1.4}.lang-switch button+button{border-left:1px solid var(--line)}.lang-switch button:hover{color:var(--ink)}.lang-switch button[aria-pressed="true"]{background:var(--ink);color:#fff}.lang-switch button:focus-visible{outline:3px solid #b48a34;outline-offset:2px}
+html[lang="en"] h1,html[lang="en"] h2,html[lang="en"] .activity-grid h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:0}html[lang="en"] h1{font-size:clamp(38px,4vw,62px);line-height:1.2}html[lang="en"] .brand{letter-spacing:2px}html[lang="en"] .mission h2{line-height:1.5}html[lang="en"] .activity-grid h3{font-size:25px;line-height:1.3}html[lang="en"] .primary{width:auto;gap:24px;align-self:flex-start}html[lang="en"] .member-roles h3,html[lang="en"] .partner-list h3{font-size:21px}
+@media(max-width:1000px){.header-right{gap:20px}}
+@media(max-width:700px){header{position:relative}.header-right{display:contents}.lang-switch{position:absolute;top:20px;right:6%;font-size:11px}.lang-switch button{padding:5px 8px}html[lang="en"] h1{font-size:38px}html[lang="en"] nav{font-size:11px}}
